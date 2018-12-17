@@ -9,7 +9,7 @@ export default class Routes extends Component{
         return(
             <Router>
                 <Stack>
-                <Scene key="login" component={Login} title="Login"/>
+                <Scene key="login" component={Login} title="Login" initial/>
                 <Scene key="signup" component={Signup} title="Signup"/>
                 </Stack>
             </Router>
